@@ -293,7 +293,7 @@ minecraftServer:
   serviceAnnotations: {}
   serviceType: NodePort
   ## Set the port used if the serviceType is NodePort
-  nodePort: 32100
+  nodePort: 30000
   # Set the external port of the service, usefull when using the LoadBalancer service type
   servicePort: 25565
   clusterIP:
